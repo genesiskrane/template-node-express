@@ -1,0 +1,27 @@
+{
+	"name": "node-express",
+	"version": "1.0.0",
+	"description": "An Express Server",
+	"homepage": "https://github.com/genesiskrane/template-node-express#readme",
+	"bugs": {
+		"url": "https://github.com/genesiskrane/template-node-express/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/genesiskrane/template-node-express.git"
+	},
+	"license": "ISC",
+	"author": "Augment Plus",
+	"type": "commonjs",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"dev": "nodemon index.js"
+	},
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^16.5.0",
+		"express": "^5.1.0",
+		"morgan": "^1.10.0"
+	}
+}
